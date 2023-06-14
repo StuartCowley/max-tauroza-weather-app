@@ -1,8 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman&family=Press+Start+2P&display=swap");
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 body {
   font-family: "Press Start 2P";
   padding: 20px;
+}
+
+.forecast-summary-list {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .forecast-summary {
