@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./styles/index.css";
+import App from "./components/app";
+import forecast from "./data/forecast.json";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <App location={forecast.location} forecasts={forecast.forecasts} />
   </React.StrictMode>
 );
