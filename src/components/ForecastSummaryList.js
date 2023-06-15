@@ -1,5 +1,6 @@
 import React from "react";
 import ForecastSummary from "./ForecastSummary";
+import "../styles/ForecastSummaryList.css";
 
 const ForecastSummaryList = ({ forecasts }) => {
   return (

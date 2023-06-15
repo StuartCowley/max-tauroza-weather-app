@@ -1,4 +1,5 @@
 Background Photo by Vadim Bogulov on Unsplash
+"Icon made by Freepik from www.flaticon.com" - Storm, Rain, Snow, Tornado, Sun
 
 # Getting Started with Create React App
 

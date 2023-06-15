@@ -12,13 +12,16 @@ exports[`Forecast Summary List renders list correctly 1`] = `
       <div
         class="forecast-summary_date"
       >
-        1111111
+        Thu Jan 01 1970
       </div>
       <div
         class="forecast-summary_icon"
         data-testid="forecast-icon"
       >
-        stubIcon
+        <img
+          alt="Weather icon"
+          src="https://cdn-icons-png.flaticon.com/128/365/365851.png"
+        />
       </div>
       <div
         class="forecast-summary_temperature"
@@ -38,13 +41,16 @@ exports[`Forecast Summary List renders list correctly 1`] = `
       <div
         class="forecast-summary_date"
       >
-        1111112
+        Thu Jan 01 1970
       </div>
       <div
         class="forecast-summary_icon"
         data-testid="forecast-icon"
       >
-        stubIcon
+        <img
+          alt="Weather icon"
+          src="https://cdn-icons-png.flaticon.com/128/365/365925.png"
+        />
       </div>
       <div
         class="forecast-summary_temperature"
@@ -64,13 +70,16 @@ exports[`Forecast Summary List renders list correctly 1`] = `
       <div
         class="forecast-summary_date"
       >
-        1111113
+        Thu Jan 01 1970
       </div>
       <div
         class="forecast-summary_icon"
         data-testid="forecast-icon"
       >
-        stubIcon
+        <img
+          alt="Weather icon"
+          src="https://cdn-icons-png.flaticon.com/128/365/365867.png"
+        />
       </div>
       <div
         class="forecast-summary_temperature"
@@ -90,13 +99,16 @@ exports[`Forecast Summary List renders list correctly 1`] = `
       <div
         class="forecast-summary_date"
       >
-        1111114
+        Thu Jan 01 1970
       </div>
       <div
         class="forecast-summary_icon"
         data-testid="forecast-icon"
       >
-        stubIcon
+        <img
+          alt="Weather icon"
+          src="https://cdn-icons-png.flaticon.com/128/365/365925.png"
+        />
       </div>
       <div
         class="forecast-summary_temperature"
@@ -116,13 +128,16 @@ exports[`Forecast Summary List renders list correctly 1`] = `
       <div
         class="forecast-summary_date"
       >
-        1111115
+        Thu Jan 01 1970
       </div>
       <div
         class="forecast-summary_icon"
         data-testid="forecast-icon"
       >
-        stubIcon
+        <img
+          alt="Weather icon"
+          src="https://cdn-icons-png.flaticon.com/128/365/365859.png"
+        />
       </div>
       <div
         class="forecast-summary_temperature"
