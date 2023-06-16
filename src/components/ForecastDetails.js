@@ -1,12 +1,12 @@
 import React from "react";
 
-const ForecastDetails = ({ detailedForecast }) => {
-  const { date, humidity, temperature, wind } = detailedForecast;
+const ForecastDetails = ({ forecast }) => {
+  const { date, humidity, temperature, wind } = forecast;
   const formattedDate = new Date(date).toDateString();
 
   return (
     <div className="forecast-details">
-      <h1 className="forecast-details_date">{formattedDate}</h1>
+      <h2 className="forecast-details_date">{formattedDate}</h2>
       <div className="forecast-details_maximum_temperature">
         Max Temperature: {temperature.max}&deg;C
       </div>

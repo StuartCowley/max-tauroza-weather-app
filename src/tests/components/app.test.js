@@ -4,7 +4,7 @@ import App from "../../components/app";
 import forecast from "../../data/forecast.json";
 
 describe("renders all app components correctly", () => {
-  const { validProps } = [
+  const validProps = [
     {
       date: 1111111,
       description: "Stub description",
@@ -39,20 +39,13 @@ describe("renders all app components correctly", () => {
     <App
       location={forecast.location}
       forecasts={validProps}
-      forecast={validProps}
+      forecast={validProps[0]}
     />
   );
 
   expect(asFragment()).toMatchSnapshot();
 
   test("renders App component correctly", () => {
-    render(
-      <App
-        location={forecast.location}
-        forecasts={validProps}
-        forecast={validProps}
-      />
-    );
     const h1Element = screen.getByText(/Manchester, Uk/i);
 
     expect(h1Element).toBeInTheDocument();
