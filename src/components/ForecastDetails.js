@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/ForecastDetails.css";
 
 const ForecastDetails = ({ forecast }) => {
   const { date, humidity, temperature, wind } = forecast;
