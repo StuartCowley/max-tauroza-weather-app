@@ -1,7 +1,6 @@
 import React from "react";
 
-const LocationDetails = (props) => {
-  const { city, country } = props;
+const LocationDetails = ({ city, country }) => {
   return <h1>{`${city}, ${country}`}</h1>;
 };
 

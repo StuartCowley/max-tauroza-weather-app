@@ -1,114 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` 1`] = `
+exports[`App renders app components correctly 1`] = `
 <DocumentFragment>
   <div
     class="weather-app"
   >
     <h1>
-      Manchester, UK
+      , 
     </h1>
     <div
-      class="forecast-summary-list"
+      class="search-form"
     >
-      <div
-        class="forecast-summary"
-        data-testid="forecast-summary"
+      <label
+        for="location-search"
       >
-        <div
-          class="forecast-summary_date"
-        >
-          Thu Jan 01 1970
-        </div>
-        <div
-          class="forecast-summary_icon"
-          data-testid="forecast-icon"
-        >
-          <img
-            alt="Weather icon"
-            src="https://cdn-icons-png.flaticon.com/128/365/365851.png"
-          />
-        </div>
-        <div
-          class="forecast-summary_temperature"
-        >
-          22°C
-        </div>
-        <div
-          class="forecast-summary_description"
-        >
-          Stub description
-        </div>
+        Change location
+        <input
+          id="location-search"
+          placeholder="Enter a town or city"
+          type="text"
+          value=""
+        />
         <button
-          type="button"
+          type="submit"
         >
-          More details
+          Search
         </button>
-      </div>
-      <div
-        class="forecast-summary"
-        data-testid="forecast-summary"
-      >
-        <div
-          class="forecast-summary_date"
-        >
-          Thu Jan 01 1970
-        </div>
-        <div
-          class="forecast-summary_icon"
-          data-testid="forecast-icon"
-        >
-          <img
-            alt="Weather icon"
-            src="https://cdn-icons-png.flaticon.com/128/365/365925.png"
-          />
-        </div>
-        <div
-          class="forecast-summary_temperature"
-        >
-          22°C
-        </div>
-        <div
-          class="forecast-summary_description"
-        >
-          Stub description
-        </div>
-        <button
-          type="button"
-        >
-          More details
-        </button>
-      </div>
+      </label>
     </div>
     <div
-      class="forecast-details"
-    >
-      <h2
-        class="forecast-details_date"
-      >
-        Thu Jan 01 1970
-      </h2>
-      <div
-        class="forecast-details_maximum_temperature"
-      >
-        Max Temperature: 22°C
-      </div>
-      <div
-        class="forecast-details_minimum_temperature"
-      >
-        Min Temperature: 12°C
-      </div>
-      <div
-        class="forecast-details_humidity"
-      >
-        Humidity: 30
-      </div>
-      <div
-        class="forecast-details_wind"
-      >
-        Wind: 13Stub direction
-      </div>
-    </div>
+      class="forecast-summary-list"
+    />
   </div>
 </DocumentFragment>
 `;

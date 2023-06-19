@@ -4,7 +4,8 @@ import iconData from "../data/iconData.json";
 
 const ForecastSummary = ({ forecast, onSelect }) => {
   const { date, description, icon, temperature } = forecast;
-  const weatherCode = `${icon.slice(0, 1)}00`;
+  const iconString = icon.toString();
+  const weatherCode = `${iconString.slice(0, 1)}00`;
   const formattedDate = new Date(date).toDateString();
 
   return (
