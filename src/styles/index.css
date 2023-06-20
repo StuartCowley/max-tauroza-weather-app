@@ -8,8 +8,7 @@ body {
   color: #850707;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url(../images/pixel-sky.jpg); */
-  background-color: rgb(231, 228, 224);
+  background-color: wheat;
 }
 
 code {

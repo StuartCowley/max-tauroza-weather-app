@@ -5,14 +5,22 @@ import iconData from "../data/iconData.json";
 const ForecastSummary = ({ forecast, onSelect }) => {
   const { date, description, icon, temperature } = forecast;
   const iconString = icon.toString();
-  const weatherCode = `${iconString.slice(0, 1)}00`;
   const formattedDate = new Date(date).toDateString();
+  let weatherCode;
+
+  if (icon > 800) {
+    weatherCode = iconString;
+  }
+  if (icon <= 800) weatherCode = `${iconString.slice(0, 1)}00`;
 
   return (
     <div className="forecast-summary" data-testid="forecast-summary">
       <div className="forecast-summary_date">{formattedDate}</div>
       <div className="forecast-summary_icon" data-testid="forecast-icon">
-        <img src={iconData[weatherCode]} alt="Weather icon" />
+        <img
+          src={iconData[weatherCode]}
+          alt={`Icon for ${description} weather`}
+        />
       </div>
       <div className="forecast-summary_temperature">
         {temperature.max}&deg;C
