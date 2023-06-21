@@ -32,6 +32,7 @@ const getForecast = async (
         console.error("Server error", error);
         setErrorMessage("Please try again later");
       }
+      console.log(error.response);
     });
 };
 

@@ -3,4 +3,6 @@
 .weather-app {
   font-family: "Press Start 2P";
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }

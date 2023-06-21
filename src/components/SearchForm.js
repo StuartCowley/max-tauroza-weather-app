@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/SearchForm.css";
 
 const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
   const handleInputChange = (event) => {

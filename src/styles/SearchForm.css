@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Press+Start+2P&display=swap");
+
+.SearchForm {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* label {
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+button {
+  font-family: "Press Start 2P";
+  padding: 5px;
+  border-radius: 5%;
+}
+
+input {
+  font-family: "Press Start 2P";
+  margin: 20px;
+  padding: 5px;
+}

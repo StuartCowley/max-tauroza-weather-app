@@ -3,6 +3,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: aliceblue;
+  align-self: center;
+  width: fit-content;
+  border-radius: 5%;
+  border-color: #850707;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .forecast-details > div {

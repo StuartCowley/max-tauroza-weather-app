@@ -2,7 +2,7 @@
 
 ## Description
 
-A Weather UI built using React, which can be used to view a 5 day weather forecast for a specified location, as well as a detailed forecast for any selected day.
+A Weather App UI built using React, which can be used to view a 5 day weather forecast for a specified location, as well as a detailed forecast for any selected day.
 
 ## Purpose
 
@@ -32,7 +32,7 @@ Eslint, Prettier
 
 ## How to use it
 
-Use the script `npm start` to run the app in development mode. Click on any of the 'More details' buttons to view the detailed forecast for that day. Search for a different town or city in the search bar.
+Use the script `npm start` to run the app in development mode. Click on any of the 'More details' buttons to view the detailed forecast for that day. Search for a different town or city in the search bar to view the forecast for said town or city.
 
 ## Credits
 
