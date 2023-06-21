@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/ForecastDetails.css";
+import iconData from "../data/iconData.json";
 
 const ForecastDetails = ({ forecast }) => {
   const { date, humidity, temperature, wind } = forecast;
@@ -16,7 +17,11 @@ const ForecastDetails = ({ forecast }) => {
       </div>
       <div className="forecast-details_humidity">Humidity: {humidity}</div>
       <div className="forecast-details_wind">
-        Wind: {wind.speed + wind.direction}
+        Wind: {wind.speed}
+        <img
+          src={iconData.wind[wind.direction]}
+          alt={`Icon for ${wind.direction} wind direction`}
+        />
       </div>
     </div>
   );

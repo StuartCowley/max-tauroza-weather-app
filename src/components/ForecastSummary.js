@@ -18,7 +18,7 @@ const ForecastSummary = ({ forecast, onSelect }) => {
       <div className="forecast-summary_date">{formattedDate}</div>
       <div className="forecast-summary_icon" data-testid="forecast-icon">
         <img
-          src={iconData[weatherCode]}
+          src={iconData.summary[weatherCode]}
           alt={`Icon for ${description} weather`}
         />
       </div>

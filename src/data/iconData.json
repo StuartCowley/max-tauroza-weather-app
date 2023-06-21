@@ -1,12 +1,32 @@
 {
-  "200": "https://cdn-icons-png.flaticon.com/128/365/365857.png",
-  "300": "https://cdn-icons-png.flaticon.com/128/365/365860.png",
-  "500": "https://cdn-icons-png.flaticon.com/128/365/365859.png",
-  "600": "https://cdn-icons-png.flaticon.com/128/365/365925.png",
-  "700": "https://cdn-icons-png.flaticon.com/128/365/365867.png",
-  "800": "https://cdn-icons-png.flaticon.com/128/365/365851.png",
-  "801": "https://cdn-icons-png.flaticon.com/128/365/365916.png",
-  "802": "https://cdn-icons-png.flaticon.com/128/365/365916.png",
-  "803": "https://cdn-icons-png.flaticon.com/128/365/365916.png",
-  "804": "https://cdn-icons-png.flaticon.com/128/365/365916.png"
+  "summary": {
+    "200": "https://cdn-icons-png.flaticon.com/128/365/365857.png",
+    "300": "https://cdn-icons-png.flaticon.com/128/365/365860.png",
+    "500": "https://cdn-icons-png.flaticon.com/128/365/365859.png",
+    "600": "https://cdn-icons-png.flaticon.com/128/365/365925.png",
+    "700": "https://cdn-icons-png.flaticon.com/128/365/365867.png",
+    "800": "https://cdn-icons-png.flaticon.com/128/365/365851.png",
+    "801": "https://cdn-icons-png.flaticon.com/128/365/365916.png",
+    "802": "https://cdn-icons-png.flaticon.com/128/365/365916.png",
+    "803": "https://cdn-icons-png.flaticon.com/128/365/365916.png",
+    "804": "https://cdn-icons-png.flaticon.com/128/365/365916.png"
+  },
+  "wind": {
+    "n": "https://cdn-icons-png.flaticon.com/512/10486/10486738.png",
+    "e": "https://cdn-icons-png.flaticon.com/512/10486/10486736.png",
+    "s": "https://cdn-icons-png.flaticon.com/512/10486/10486728.png",
+    "w": "https://cdn-icons-png.flaticon.com/512/10486/10486734.png",
+    "ne": "https://cdn-icons-png.flaticon.com/512/10486/10486742.png",
+    "nne": "https://cdn-icons-png.flaticon.com/512/10486/10486742.png",
+    "ene": "https://cdn-icons-png.flaticon.com/512/10486/10486742.png",
+    "se": "https://cdn-icons-png.flaticon.com/512/10486/10486732.png",
+    "ese": "https://cdn-icons-png.flaticon.com/512/10486/10486732.png",
+    "sse": "https://cdn-icons-png.flaticon.com/512/10486/10486732.png",
+    "sw": "https://cdn-icons-png.flaticon.com/512/10486/10486730.png",
+    "ssw": "https://cdn-icons-png.flaticon.com/512/10486/10486730.png",
+    "wsw": "https://cdn-icons-png.flaticon.com/512/10486/10486730.png",
+    "nw": "https://cdn-icons-png.flaticon.com/512/10486/10486740.png",
+    "wnw": "https://cdn-icons-png.flaticon.com/512/10486/10486740.png",
+    "nnw": "https://cdn-icons-png.flaticon.com/512/10486/10486740.png"
+  }
 }

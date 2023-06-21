@@ -15,3 +15,7 @@
 .forecast-details > div {
   padding: 5px;
 }
+
+img {
+  height: 1em;
+}
