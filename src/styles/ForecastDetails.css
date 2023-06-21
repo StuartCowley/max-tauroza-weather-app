@@ -16,6 +16,6 @@
   padding: 5px;
 }
 
-img {
+.forecast-details_wind > img {
   height: 1em;
 }
