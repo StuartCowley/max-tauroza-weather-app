@@ -23,11 +23,12 @@ const getForecast = async (
       setLocation(res.data.location);
     })
     .catch((error) => {
-      if (error.response.status === 404) {
+      const { status } = error.response;
+      if (status === 404) {
         console.error("Invalid location", error);
         setErrorMessage("Please enter a valid town or city");
       }
-      if (error.response.status === 500) {
+      if (status === 500) {
         console.error("Server error", error);
         setErrorMessage("Please try again later");
       }

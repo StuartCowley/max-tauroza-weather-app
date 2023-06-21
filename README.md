@@ -1,73 +1,41 @@
-Background Photo by Vadim Bogulov on Unsplash
-"Icon made by Freepik from www.flaticon.com" - Storm, Rain, Snow, Tornado, Sun
+# Weather App :sunny: :zap: :rainbow: :cloud_with_rain: :tornado:
 
-# Getting Started with Create React App
+## Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Weather UI built using React, which can be used to view a 5 day weather forecast for a specified location, as well as a detailed forecast for any selected day.
 
-## Available Scripts
+## Purpose
 
-In the project directory, you can run:
+To allow me to gain an understanding of React, building an app out of components, using state and event handlers and accessing external data in a React app.
 
-### `npm start`
+## Tech that was used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Axios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Why this tech?
 
-### `npm test`
+I used React because it is scalable and renders quickly and Axios because it automatically transforms responses to JSON data;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dependencies
 
-### `npm run build`
+Jest, React, React Testing Library and Axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Dev dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Eslint, Prettier
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to install and run the Music Library
 
-### `npm run eject`
+- Fork and clone this repository
+- Open the cloned directory and run `npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to use it
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Use the script `npm start` to run the app in development mode. Click on any of the 'More details' buttons to view the detailed forecast for that day. Search for a different town or city in the search bar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I used the create-react-app npx script to set up the basic scaffolding of the project; the Command Shift track and all of the tutors helped me along the way, as well as some of the other students in my cohort.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All weather icons were made by Freepik from www.flaticon.com - Storm, Rain, Snow, Tornado, Sun, Cloud

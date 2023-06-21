@@ -19,7 +19,7 @@ exports[`Forecast Summary List renders list correctly 1`] = `
         data-testid="forecast-icon"
       >
         <img
-          alt="Weather icon"
+          alt="Icon for Stub description weather"
           src="https://cdn-icons-png.flaticon.com/128/365/365851.png"
         />
       </div>
@@ -53,7 +53,7 @@ exports[`Forecast Summary List renders list correctly 1`] = `
         data-testid="forecast-icon"
       >
         <img
-          alt="Weather icon"
+          alt="Icon for Stub description weather"
           src="https://cdn-icons-png.flaticon.com/128/365/365925.png"
         />
       </div>
@@ -87,7 +87,7 @@ exports[`Forecast Summary List renders list correctly 1`] = `
         data-testid="forecast-icon"
       >
         <img
-          alt="Weather icon"
+          alt="Icon for Stub description weather"
           src="https://cdn-icons-png.flaticon.com/128/365/365867.png"
         />
       </div>
@@ -121,7 +121,7 @@ exports[`Forecast Summary List renders list correctly 1`] = `
         data-testid="forecast-icon"
       >
         <img
-          alt="Weather icon"
+          alt="Icon for Stub description weather"
           src="https://cdn-icons-png.flaticon.com/128/365/365925.png"
         />
       </div>
@@ -155,7 +155,7 @@ exports[`Forecast Summary List renders list correctly 1`] = `
         data-testid="forecast-icon"
       >
         <img
-          alt="Weather icon"
+          alt="Icon for Stub description weather"
           src="https://cdn-icons-png.flaticon.com/128/365/365859.png"
         />
       </div>
