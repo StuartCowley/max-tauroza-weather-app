@@ -1,7 +1,7 @@
 import React from "react";
-import { render /*screen, waitFor*/ } from "@testing-library/react";
+import { render /* screen, waitFor */ } from "@testing-library/react";
 // import axios from "axios";
-import App from "../../components/app";
+import App from "../components/app";
 
 describe("App", () => {
   it("renders app components correctly", async () => {

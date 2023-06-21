@@ -34,6 +34,10 @@ Eslint, Prettier
 
 Use the script `npm start` to run the app in development mode. Click on any of the 'More details' buttons to view the detailed forecast for that day. Search for a different town or city in the search bar to view the forecast for said town or city.
 
+## What's missing?
+
+Given some more time I would revisit the tests and ensure that all eventualities are accounted for. Currently the API call is not being tested with a spy, something that I attempted to include but couldn't get to work - I will revisit this at a later date.
+
 ## Credits
 
 I used the create-react-app npx script to set up the basic scaffolding of the project; the Command Shift track and all of the tutors helped me along the way, as well as some of the other students in my cohort.
