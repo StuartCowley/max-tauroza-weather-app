@@ -1,0 +1,21 @@
+.forecast-details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  align-self: center;
+  width: fit-content;
+  border-radius: 5%;
+  border-color: #850707;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.forecast-details > div {
+  padding: 5px;
+}
+
+.forecast-details_wind > img {
+  height: 1em;
+}
